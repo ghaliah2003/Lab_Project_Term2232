@@ -4,9 +4,9 @@ date: "`r Sys.Date()`"
 output: github_document
 ---
 
-**Student Name:<insert your name here>**
+**Student Name:<ghaliah>**
 
-**Student ID:<insert ID here>**
+**Student ID:<2221006745>**
 
 
 **Deadline:** 23:59 on Sunday, 19 May 2024
@@ -28,7 +28,9 @@ library(ggrepel)
 
 `1. (2 points)
 ```{r}
-
+# Count the number of pets
+num_pets <- nrow(seattlepets)
+num_pets
 ```
 Write your narrative here
 
@@ -47,6 +49,7 @@ Write your narrative below
 `3. (2 points)
 ```{r}
 
+
 ```
 Write your narrative here
 
@@ -54,12 +57,7 @@ Write your narrative here
 `4. (2 points)
 ```{r}
 
-```
-Write your narrative here
 
-
-`5. (2 points)
-```{r}
 
 ```
 Write your narrative here
@@ -69,7 +67,6 @@ Write your narrative here
 
 `6. (2 points)
 ```{r}
-
 ```
 Write your narrative here
 
@@ -87,7 +84,6 @@ Write your narrative here
 
 `8. (2 points)
 ```{r}
-
 ```
 Write your narrative here
 
@@ -96,10 +92,6 @@ Write your narrative here
 
 `9. (2 points)
 ```{r}
-top_10_names <- seattlepets %>% 
-filter(animal_name %in% c( "Lucy"  , "Charlie" , "Luna" , "Bella" , "Max"    , 
-                           "Daisy" , "Molly"   , "Jack" , "Lily"  , "Stella" ))
-top_10_names
 ```
 `a.	What does the above code chunk do?
 
@@ -107,7 +99,6 @@ top_10_names
 
 `b. Plot the counts of the pet names (animal_name) in top_10_names
 ```{r}
-
 ```
 
 
